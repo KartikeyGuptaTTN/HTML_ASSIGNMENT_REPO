@@ -1,0 +1,5 @@
+Q4. What is semantic HTML? List some semantic and non-semantic elements.
+
+Ans:-A semantic element clearly describes its meaning to both the browser and the developer.
+Ex:- non-semantic elements: <div> and <span>- Tells nothing about its content.
+Ex:- semantic elements: <img>, <header>, <title>, <section> and so on - Clearly defines its content.

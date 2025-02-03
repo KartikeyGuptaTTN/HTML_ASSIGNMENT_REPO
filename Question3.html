@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">
+        <span class="text-blue-600">TO THE</span> <span class="text-blue-500">NEW</span>
+      </div>
+      <nav>
+        <ul class="flex space-x-8">
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Home</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Single Posts</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Pages</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Category</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Contact Me</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-blue-500">Features</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-96 bg-cover bg-center" style="background-image: url('your-image-path.jpg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative container mx-auto text-center text-white py-24">
+      <h1 class="text-4xl font-bold">CONTACT US</h1>
+      <p class="mt-4">LET'S GET IN TOUCH</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <form action="#" method="POST" class="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto">
+        <div class="space-y-6">
+          <div>
+            <label for="name" class="block text-gray-700">Name</label>
+            <input type="text" id="name" name="name" required class="w-full p-3 border border-gray-300 rounded-md"/>
+          </div>
+          <div>
+            <label for="email" class="block text-gray-700">Email</label>
+            <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-md"/>
+          </div>
+          <div>
+            <label for="password" class="block text-gray-700">Password</label>
+            <input type="password" id="password" name="password" required class="w-full p-3 border border-gray-300 rounded-md"/>
+          </div>
+          <div>
+            <label for="gender" class="block text-gray-700">Gender</label>
+            <div class="flex space-x-4">
+              <label><input type="radio" name="gender" value="male" class="mr-2"/> Male</label>
+              <label><input type="radio" name="gender" value="female" class="mr-2"/> Female</label>
+            </div>
+          </div>
+          <div>
+            <label for="city" class="block text-gray-700">City</label>
+            <select id="city" name="city" class="w-full p-3 border border-gray-300 rounded-md">
+              <option>Select City</option>
+              <option>New York</option>
+              <option>Los Angeles</option>
+            </select>
+          </div>
+          <div>
+            <label for="hobbies" class="block text-gray-700">Hobbies</label>
+            <div class="flex space-x-4">
+              <label><input type="checkbox" name="hobbies" value="reading" class="mr-2"/> Reading</label>
+              <label><input type="checkbox" name="hobbies" value="writing" class="mr-2"/> Writing</label>
+              <label><input type="checkbox" name="hobbies" value="music" class="mr-2"/> Music</label>
+              <label><input type="checkbox" name="hobbies" value="sports" class="mr-2"/> Sports</label>
+            </div>
+          </div>
+          <div>
+            <label for="message" class="block text-gray-700">Message</label>
+            <textarea id="message" name="message" class="w-full p-3 border border-gray-300 rounded-md" rows="4"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="bg-blue-500 text-white py-3 px-6 rounded-md hover:bg-blue-600">Submit Form</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto text-center">
+      <div class="mb-6">
+        <h2 class="text-xl font-bold">Recent Posts</h2>
+        <ul>
+          <li><a href="#" class="text-gray-400 hover:text-white">Beauty of Nature</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Fashion Model Shoot</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Golden Snow Land</a></li>
+        </ul>
+      </div>
+      <div class="mb-6">
+        <h2 class="text-xl font-bold">Popular Posts</h2>
+        <ul>
+          <li><a href="#" class="text-gray-400 hover:text-white">Top 10 Ingredients</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Family Comes First</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white">Golden Snow Land</a></li>
+        </ul>
+      </div>
+      <div class="mt-6 text-gray-400">
+        <p>&copy; Copyright Leaking Theme Demo - Theme by ThemeGoods</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

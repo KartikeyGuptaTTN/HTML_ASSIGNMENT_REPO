@@ -1,0 +1,15 @@
+Q. What is HTML, and how is an HTML document structured?
+
+Ans: HTML stands for the HyperText Markup Language. 
+=>   It mainly used to create the structure of the webpage.
+=>   HTML makes the skeleton of the webpages and the web applications.
+             
+    STRUCTURE OF THE HTML DOCUMENT
+
+    <!DOCTYPE html> declares that this document is an HTML5 document
+    <html> element is the root element of an HTML page
+    <head> element contains meta information about the HTML page(mainly for SEO purpose)
+    <title> element specifies a title for the HTML page 
+    <body> element defines the document's body
+    <h1> element defines a large heading
+    <p> element defines a paragraph

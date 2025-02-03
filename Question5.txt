@@ -1,0 +1,14 @@
+Q5. Why do we use meta tags?
+
+Ans: Meta tags are used to provide additional information about a webpage to search engines and 
+     users, helping them understand the content of a page and ultimately improving its visibility 
+     in search results by providing key details like page titles and descriptions that appear on 
+     search engine result pages (SERPs); essentially, they act as a way to "tell" search engines 
+     what a page is about so they can better categorize and rank it.
+Ex:-  <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head> 
